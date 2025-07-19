@@ -17,7 +17,6 @@ options = ObjectDetectorOptions(
     result_callback=print_result)
 
 with ObjectDetector.create_from_options(options) as detector:
-  # The detector is initialized. Use it here.
   # ...
   cap=cv2.VideoCapture(0)
   while True: 
