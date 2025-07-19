@@ -1,3 +1,5 @@
+# Gesture Image
+
 import mediapipe as mp 
 import math
 from mediapipe.tasks import python 
